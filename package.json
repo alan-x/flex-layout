@@ -1,8 +1,8 @@
 {
-  "name": "flex-layout",
-  "version": "1.0.0",
+  "name": "@followwinter/flex-layout",
+  "version": "0.0.0",
   "description": "flex实现的快速布局工具",
-  "main": "index.js",
+  "main": "src/flex.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
