@@ -4,7 +4,8 @@
   "description": "flex实现的快速布局工具",
   "main": "src/flex.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"sass ./src/flex.scss ./dist/flex.css",
+    "publish":"npm publish --access=public"
   },
   "repository": {
     "type": "git",
