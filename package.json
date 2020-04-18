@@ -1,11 +1,11 @@
 {
   "name": "@followwinter/flex-layout",
   "version": "0.0.2",
-  "description": "flex实现的快速布局工具",
-  "main": "src/flex.scss",
+  "description": "flex 实现的快速布局工具",
+  "main": "dist/flex.scss",
   "scripts": {
-    "build":"sass ./src/flex.scss ./dist/flex.css",
-    "publish":"npm publish --access=public"
+    "build": "sass ./src/flex.scss ./dist/flex.css",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/followWinter/flex-layout/issues"
   },
-  "homepage": "https://github.com/followWinter/flex-layout#readme"
+  "homepage": "https://github.com/followWinter/flex-layout#readme",
+  "devDependencies": {
+    "sass": "^1.26.3"
+  }
 }

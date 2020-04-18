@@ -1,0 +1,189 @@
+.flex, .col, .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.content-start {
+  justify-content: flex-start;
+}
+
+.content-end {
+  justify-content: flex-end;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.content-around {
+  justify-content: space-around;
+}
+
+.cross-start {
+  align-items: flex-start;
+}
+
+.cross-end {
+  align-items: flex-end;
+}
+
+.cross-stretch {
+  align-items: stretch;
+}
+
+.cell-start {
+  align-self: flex-start;
+}
+
+.cell-end {
+  align-self: flex-end;
+}
+
+.cell-stretch {
+  align-self: stretch;
+}
+
+.cell-1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.cell-2 {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.cell-3 {
+  flex-grow: 3;
+  text-align: center;
+}
+
+.cell-4 {
+  flex-grow: 4;
+  text-align: center;
+}
+
+.cell-5 {
+  flex-grow: 5;
+  text-align: center;
+}
+
+.h-match {
+  height: 100%;
+}
+
+.w-match {
+  width: 100%;
+}
+
+.match {
+  width: 100%;
+  height: 100%;
+}
+
+.cell-scroll-y {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.cell-scroll-x {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.basic-1 {
+  flex-basis: 5%;
+}
+
+.basic-2 {
+  flex-basis: 10%;
+}
+
+.basic-3 {
+  flex-basis: 15%;
+}
+
+.basic-4 {
+  flex-basis: 20%;
+}
+
+.basic-5 {
+  flex-basis: 25%;
+}
+
+.basic-6 {
+  flex-basis: 30%;
+}
+
+.basic-7 {
+  flex-basis: 35%;
+}
+
+.basic-8 {
+  flex-basis: 40%;
+}
+
+.basic-9 {
+  flex-basis: 45%;
+}
+
+.basic-10 {
+  flex-basis: 50%;
+}
+
+.basic-11 {
+  flex-basis: 55%;
+}
+
+.basic-12 {
+  flex-basis: 60%;
+}
+
+.basic-13 {
+  flex-basis: 65%;
+}
+
+.basic-14 {
+  flex-basis: 70%;
+}
+
+.basic-15 {
+  flex-basis: 75%;
+}
+
+.basic-16 {
+  flex-basis: 80%;
+}
+
+.basic-17 {
+  flex-basis: 85%;
+}
+
+.basic-18 {
+  flex-basis: 90%;
+}
+
+.basic-19 {
+  flex-basis: 95%;
+}
+
+.basic-20 {
+  flex-basis: 100%;
+}
+
+/*# sourceMappingURL=flex.css.map */
