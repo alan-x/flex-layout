@@ -1,6 +1,6 @@
 {
   "name": "@followwinter/flex-layout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "flex 实现的快速布局工具",
   "main": "dist/flex.scss",
   "scripts": {
